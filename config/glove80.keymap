@@ -61,7 +61,7 @@
                   <&bt BT_SEL 3>;
         };
         jump: jump {
-                compatible = "zmk,behavior-macro", "zmk,behavior-macro-string-encode";
+                compatible = "zmk,behavior-macro-type";
                 #binding-cells = <0>;
                 text = "c5a3d885-4b89-4801-970a-dc936ae2903";
         };
