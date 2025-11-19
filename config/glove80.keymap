@@ -63,6 +63,38 @@
                 = <&out OUT_BLE>,
                   <&bt BT_SEL 3>;
         };
+        adpass: adpass {
+            label = "&MTPASS";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            tap-ms = <45>;
+            wait-ms = <13>;
+            bindings =
+                <&kp N>
+                , <&kp A>
+                , <&kp LS(R)>
+                , <&kp HASH>
+                , <&kp HASH>
+                , <&kp B>
+                , <&kp N3>
+                , <&kp N2>
+                , <&kp E>
+                , <&kp F>
+                , <&kp N0>
+                , <&kp N0>
+                , <&kp LS(R)>
+                , <&kp B>
+                , <&kp N3>
+                , <&kp N2>
+                , <&kp E>
+                , <&kp F>
+                , <&kp N1>
+                , <&kp N1>
+                , <&kp HASH>
+                , <&kp HASH>
+                , <&kp N1>
+                , <&kp RET>;
+        };
         mtpass: mtpass {
             label = "&MTPASS";
             compatible = "zmk,behavior-macro";
@@ -196,9 +228,9 @@
             &kp F1            &kp C_BRI_UP        &kp C_PREV      &trans          &trans                                                                                                          &kp C_MUTE   &kp C_VOL_DN &kp C_VOL_UP  &none           &kp PAUSE_BREAK
             &kp F11           &none               &none           &none           &jump           &naiskey1                                                                          &kp LPAR     &kp KP_NUM   &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &kp PSCRN
             &kp F12           &none               &none           &kp UP          &netjgs         &naiskey2                                                                          &kp RPAR     &kp HOME     &kp UP       &kp PG_UP     &kp SLCK        &trans
-            &trans            &none               &kp LEFT        &kp DOWN        &netjgs         &trans                                                                             &kp PRCNT    &kp LEFT     &kp DOWN     &kp RIGHT     &none           &trans
+            &trans            &none               &kp LEFT        &kp DOWN        &adpass         &trans                                                                             &kp PRCNT    &kp LEFT     &kp DOWN     &kp RIGHT     &none           &trans
             &trans            &kp K_CMENU         &none           &kp F11         &trans          &trans       &trans      &trans      &to DEFAULT &trans      &trans      &trans    &kp COMMA    &kp END      &kp DOWN     &kp PG_DN     &trans          &kp HOME
-            &trans            &trans              &kp INS         &trans          &trans                        &trans      &trans      &trans      &trans      &trans      &trans                 &kp KP_N0    &kp KP_N0    &kp KP_DOT    &kp KP_ENTER    &kp END
+            &trans            &trans              &kp INS         &trans          &trans                       &trans      &trans      &trans      &trans      &trans      &trans                 &kp KP_N0    &kp KP_N0    &kp KP_DOT    &kp KP_ENTER    &kp END
             >;
         };
 
