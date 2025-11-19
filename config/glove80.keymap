@@ -61,17 +61,12 @@
                   <&bt BT_SEL 3>;
         };
         jump: jump {
-                compatible = "zmk,behavior-macro";
+                compatible = "zmk,behavior-macro", "zmk,behavior-macro-string-encode";
                 #binding-cells = <0>;
                 tap-ms = <45>;
                 wait-ms = <10>;
                 bindings
-                    = <&macro_tap>
-                    , <&kp J>
-                    , <&kp U>
-                    , <&kp M>
-                    , <&kp P>
-                    , <&kp RET>;
+                    = <&macro_tap &str "c5a3d885-4b89-4801-970a-dc936ae2903">;
         };
 
     };
