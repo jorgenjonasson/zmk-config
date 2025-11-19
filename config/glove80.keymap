@@ -63,7 +63,7 @@
 
         mtpass: mtpass {
             label = "&MTPASS";
-            compatible = "zmk,behavior-macro";
+            compatible = "zmk,behavior-macro", "zmk,behavior-macro-string-encode";
             #binding-cells = <0>;
             tap-ms = <45>;
             wait-ms = <13>;
