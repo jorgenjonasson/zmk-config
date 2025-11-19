@@ -200,13 +200,43 @@
                 #binding-cells = <0>;
                 tap-ms = <45>;
                 wait-ms = <10>;
-                bindings
-                    = <&macro_tap &kp N3 &kp N2 &kp N5 &kp D  &kp N1 &kp N9 &kp C &kp C &kp FSLH>
-                    , <&macro_tap &kp N0 &kp N9 &kp E  &kp N3 &kp FSLH>
-                    , <&macro_tap &kp N4 &kp F  &kp N7 &kp N1 &kp FSLH>
-                    , <&macro_tap &kp B  &kp N6 &kp E  &kp N9 &kp FSLH>
-                    , <&macro_tap &kp N2 &kp N9 &kp C &kp N3 &kp N8 &kp N4 &kp N2 &kp N3 &kp B &kp D &kp N7 &kp A>
-                    ;
+                bindings =
+                    <&kp C>
+                    , <&kp N5>
+                    , <&kp A>
+                    , <&kp N3>
+                    , <&kp D>
+                    , <&kp N8>
+                    , <&kp N8>
+                    , <&kp N5>
+                    , <&kp FSLH>
+                    , <&kp N4>
+                    , <&kp B>
+                    , <&kp N8>
+                    , <&kp N9>
+                    , <&kp FSLH>
+                    , <&kp N4>
+                    , <&kp N8>
+                    , <&kp N0>
+                    , <&kp N1>
+                    , <&kp FSLH>
+                    , <&kp N9>
+                    , <&kp N7>
+                    , <&kp N0>
+                    , <&kp A>
+                    , <&kp FSLH>
+                    , <&kp D>
+                    , <&kp C>
+                    , <&kp N9>
+                    , <&kp N3>
+                    , <&kp N6>
+                    , <&kp A>
+                    , <&kp E>
+                    , <&kp N2>
+                    , <&kp N9>
+                    , <&kp N0>
+                    , <&kp N3>
+                    , <&kp N7>;
         };
         naiskey2: naiskey2 {
                 compatible = "zmk,behavior-macro";
