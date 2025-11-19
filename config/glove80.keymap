@@ -225,7 +225,7 @@
 
         lower_layer {
             bindings = <
-            &kp F1            &kp C_BRI_UP        &kp C_PREV      &trans          &trans                                                                                                         &kp C_MUTE   &kp C_VOL_DN &kp C_VOL_UP  &none           &kp PAUSE_BREAK
+            &kp F1            &kp C_BRI_UP        &kp C_PREV      &kp F5          &trans                                                                                                         &kp C_MUTE   &kp C_VOL_DN &kp C_VOL_UP  &none           &kp PAUSE_BREAK
             &kp F11           &none               &none           &none           &trans         &trans                                                                             &kp LPAR     &kp KP_NUM   &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &kp PSCRN
             &kp F12           &none               &none           &kp UP          &jump          &naiskey1                                                                          &kp RPAR     &kp HOME     &kp UP       &kp PG_UP     &kp SLCK        &trans
             &trans            &none               &kp LEFT        &kp DOWN        &netjgs        &naiskey2                                                                          &kp PRCNT    &kp LEFT     &kp DOWN     &kp RIGHT     &none           &trans
