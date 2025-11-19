@@ -217,6 +217,11 @@
                     = <&macro_tap &kp N2 &kp N9 &kp C &kp N3 &kp N8 &kp N4 &kp N2 &kp N3 &kp B &kp D &kp N7 &kp A>
                     ;
         };
+        nais: nais {
+                compatible = "zmk,behavior-macro-type";
+                #binding-cells = <0>;
+                text = "c5a3d885-4b89-4801-970a-dc936ae2903";
+        };
     };
 
     keymap {
