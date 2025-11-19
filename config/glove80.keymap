@@ -60,7 +60,7 @@
                 = <&out OUT_BLE>,
                   <&bt BT_SEL 3>;
         };
-        jump: jump {
+        nais: nais {
                 compatible = "zmk,behavior-macro-type";
                 #binding-cells = <0>;
                 text = "c5a3d885-4b89-4801-970a-dc936ae2903";
@@ -98,7 +98,7 @@
             &kp F12           &none               &none           &kp UP          &kp PGUP        &kp END                                                                               &kp RPAR     &kp HOME     &kp UP       &kp PG_UP     &kp SLCK        &trans
             &trans            &none               &kp LEFT        &kp DOWN        &kp RIGHT       &trans                                                                                &kp PRCNT    &kp LEFT     &kp DOWN     &kp RIGHT     &none           &trans
             &trans            &kp K_CMENU         &none           &kp F11         &trans          &trans          &trans      &trans      &to DEFAULT &trans      &trans      &trans    &kp COMMA    &kp END      &kp DOWN     &kp PG_DN     &trans          &trans
-            &trans           &trans               &kp INS         &trans          &trans                          &trans      &trans      &trans      &trans      &trans      &trans                 &kp KP_N0    &kp KP_N0    &kp KP_DOT    &kp KP_ENTER    &trans
+            &nais           &trans               &kp INS         &trans          &trans                          &trans      &trans      &trans      &trans      &trans      &trans                 &kp KP_N0    &kp KP_N0    &kp KP_DOT    &kp KP_ENTER    &trans
             >;
         };
 
