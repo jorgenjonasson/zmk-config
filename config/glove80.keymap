@@ -70,7 +70,7 @@
             tap-ms = <45>;
             wait-ms = <13>;
             bindings =
-                <&kp N>
+                <&kp B>
                 , <&kp A>
                 , <&kp LS(R)>
                 , <&kp HASH>
