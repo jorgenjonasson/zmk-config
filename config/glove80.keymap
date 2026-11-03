@@ -92,8 +92,7 @@
                 , <&kp N1>
                 , <&kp HASH>
                 , <&kp HASH>
-                , <&kp N1>
-                , <&kp RET>;
+                , <&kp N1>;
         };
         adnew: adnew {
             label = "&ADNEW";
